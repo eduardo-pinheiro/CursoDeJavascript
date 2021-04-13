@@ -1,23 +1,38 @@
-.container {
-  display: flex;
+section {
+  background-color: red;
 }
 
-.container div {
-  padding: 10px;
-  border: 1px solid black;
+.class-maneira {
+  background-color: green;
+  color: white;
 }
 
-p span {
-  font-weight: bold;
-  color: red;
+[data-background-color="purple"] {
+  background-color: purple;
+  color: white;
 }
 
-a div {
-  padding: 10px;
-  border: 1px solid black;
+[data-background-color="green"] {
+  background-color: green;
+  color: white;
 }
 
-textarea {
-  width: 300px;
-  height: 100px;
+.artiguinho .class-maneira{
+  font-size: 40px;
+}
+
+.class-maneira.classe-auxiliar-legal{
+  background-color: blue;
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+.text-size-30 {
+  font-size: 30px;
+}
+
+.font-color-white {
+  color: white;
 }
