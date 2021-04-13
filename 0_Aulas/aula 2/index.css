@@ -17,10 +17,6 @@ section {
   color: white;
 }
 
-.artiguinho .class-maneira{
-  font-size: 40px;
-}
-
 .class-maneira.classe-auxiliar-legal{
   background-color: blue;
 }
@@ -35,4 +31,18 @@ section {
 
 .font-color-white {
   color: white;
+}
+
+.artiguinho .class-maneira, [data-background-color="purple"]{
+  font-size: 40px;
+}
+
+/* mouse por cima */
+.artiguinho .class-maneira:hover{
+  background-color: red;
+}
+
+/* enquanto segura o click do mouse */
+.artiguinho .class-maneira:active{
+  background-color: purple;
 }
