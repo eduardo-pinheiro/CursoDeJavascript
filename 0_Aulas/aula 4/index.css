@@ -2,6 +2,7 @@
   /* 60px is the height of .fixed-header-top class */
   padding-top: calc(60px + 10px);
   overflow-x: hidden;
+  font-family: 'Montserrat';
 }
 
 /* HEADER */
