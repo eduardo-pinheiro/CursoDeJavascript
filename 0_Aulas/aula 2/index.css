@@ -7,7 +7,7 @@ section {
   color: white;
 }
 
-[data-background-color="purple"] {
+[data-background-color="primary"] {
   background-color: purple;
   color: white;
 }
@@ -45,4 +45,8 @@ section {
 /* enquanto segura o click do mouse */
 .artiguinho .class-maneira:active{
   background-color: purple;
+}
+
+.tas .alo:first-child {
+  background-color: brown;
 }
