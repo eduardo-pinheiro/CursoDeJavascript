@@ -1,0 +1,52 @@
+section {
+  background-color: red;
+}
+
+.class-maneira {
+  background-color: green;
+  color: white;
+}
+
+[data-background-color="primary"] {
+  background-color: purple;
+  color: white;
+}
+
+[data-background-color="green"] {
+  background-color: green;
+  color: white;
+}
+
+.class-maneira.classe-auxiliar-legal{
+  background-color: blue;
+}
+
+.background-blue {
+  background-color: blue;
+}
+
+.text-size-30 {
+  font-size: 30px;
+}
+
+.font-color-white {
+  color: white;
+}
+
+.artiguinho .class-maneira, [data-background-color="purple"]{
+  font-size: 40px;
+}
+
+/* mouse por cima */
+.artiguinho .class-maneira:hover{
+  background-color: red;
+}
+
+/* enquanto segura o click do mouse */
+.artiguinho .class-maneira:active{
+  background-color: purple;
+}
+
+.tas .alo:first-child {
+  background-color: brown;
+}
