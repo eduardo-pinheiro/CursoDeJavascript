@@ -16,3 +16,8 @@ li {
     text-align: unset;
     text-align-last: unset;
 }
+
+a {
+    text-decoration: none;
+    color: unset;
+}
