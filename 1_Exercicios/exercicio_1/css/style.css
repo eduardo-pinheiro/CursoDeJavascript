@@ -42,6 +42,26 @@
     font-weight: 500;
 }
 
+.button.secondary:active{
+    filter: unset;
+    border: 1px solid rgba(55, 81, 255, 0.5);
+}
+
 body {
     height: 300vh;
 }
+
+.button.primary{
+    background-color: #3751FF;
+    color: #FFFFFF;
+}
+
+.button.primary:hover{
+    font-weight: 500;
+    filter: drop-shadow(0px 0px 5px rgba(32, 29, 153, 0.5));
+}
+
+.button.primary:active{
+    filter: unset;
+}
+
