@@ -5,28 +5,41 @@
     border-radius: 8px;
 }
 
-.image {
+.tickets-table .table-header {
+    height: 40px;
+    padding: 0 20px;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.tickets-table .image {
     height: 64px;
     width: 64px;
     background: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
 }
 
-th, td {
+.tickets-table th, .tickets-table td {
     text-align: left;
     width: 200px;
 }
 
-tr{
+.tickets-table tr {
     display: flex;
-
+    padding: 24px 20px;
+    align-items: center;
 }
 
-.full-column{
+.tickets-table .full-column {
     flex: 1;
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-tbody{
+.tickets-table tbody {
     display: flex;
     flex-direction: column;
     flex: 1;
