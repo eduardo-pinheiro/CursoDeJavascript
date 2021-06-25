@@ -11,6 +11,23 @@
     background: rgba(0, 0, 0, 0.2);
 }
 
-th {
+th, td {
     text-align: left;
+    width: 200px;
+}
+
+tr{
+    display: flex;
+
+}
+
+.full-column{
+    flex: 1;
+    display: flex;
+}
+
+tbody{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
