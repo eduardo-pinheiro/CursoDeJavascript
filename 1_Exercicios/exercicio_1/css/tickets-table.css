@@ -1,0 +1,16 @@
+.tickets-table {
+    display: flex;
+    width: 100%;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.image {
+    height: 64px;
+    width: 64px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+th {
+    text-align: left;
+}
